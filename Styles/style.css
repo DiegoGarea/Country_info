@@ -1,0 +1,92 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  font-family: sans-serif;
+  height: 100vh;
+  background: rgb(197, 197, 197);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color: rgb(245, 245, 252);
+  background-color: black;
+}
+
+#prompt {
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+header span {
+  color: black;
+  background-color: #b0b0b0;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+#principal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#respuesta {
+  padding: 10px;
+  margin-top: 10px;
+  height: 50%;
+  width: 450px;
+  /* background: #eaeaea; */
+  color: rgb(0, 0, 0);
+  font-size: large;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+
+#respuesta p {
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+
+#submit {
+  display: inline-block;
+  margin-top: 15px;
+  height: 40px;
+  width: 110px;
+  background-color: #cdcdcd;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  font-size: medium;
+  /* border: none; */
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: rgb(182, 182, 182);
+}
+
+#submit:active {
+  background-color: rgb(115, 115, 115);
+}
+
+#form input {
+  padding-left: 10px;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  height: 35px;
+  background: #cdcdcd;
+  border: 0.5px solid rgb(0, 0, 0);
+}
